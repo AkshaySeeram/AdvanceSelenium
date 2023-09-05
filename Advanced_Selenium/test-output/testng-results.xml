@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T11:13:52Z" name="Suite" finished-at="2023-09-04T11:14:27Z" duration-ms="35348">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T11:13:52Z" name="Test" finished-at="2023-09-04T11:14:26Z" duration-ms="33752">
+      <class name="com.comcast.crm.orgtest.OrgTC">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:13:52Z" name="beforeclass" finished-at="2023-09-04T11:13:54Z" duration-ms="2492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:13:54Z" name="beforemethod" finished-at="2023-09-04T11:13:56Z" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createcontactwithsupportdate()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:13:56Z" name="createcontactwithsupportdate" finished-at="2023-09-04T11:14:01Z" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactwithsupportdate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:01Z" name="afterMethod" finished-at="2023-09-04T11:14:04Z" duration-ms="2987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:04Z" name="beforemethod" finished-at="2023-09-04T11:14:06Z" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createorg()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:06Z" name="createorg" finished-at="2023-09-04T11:14:10Z" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorg -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:10Z" name="afterMethod" finished-at="2023-09-04T11:14:13Z" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:13Z" name="beforemethod" finished-at="2023-09-04T11:14:15Z" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createorgwithindustry()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:15Z" name="createorgwithindustry" finished-at="2023-09-04T11:14:20Z" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgwithindustry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:20Z" name="afterMethod" finished-at="2023-09-04T11:14:22Z" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.comcast.crm.orgtest.OrgTC@15a34df2]" started-at="2023-09-04T11:14:22Z" name="afterclass" finished-at="2023-09-04T11:14:26Z" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.comcast.crm.orgtest.OrgTC -->
+    </test> <!-- Test -->
+    <test started-at="2023-09-04T11:13:52Z" name="Test1" finished-at="2023-09-04T11:14:27Z" duration-ms="35344">
+      <class name="com.comcast.crm.contacttest.ContactTC">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:13:52Z" name="beforesuite" finished-at="2023-09-04T11:13:52Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:13:52Z" name="beforeclass" finished-at="2023-09-04T11:13:56Z" duration-ms="3989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:13:56Z" name="beforemethod" finished-at="2023-09-04T11:13:58Z" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createcontact()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:13:58Z" name="createcontact" finished-at="2023-09-04T11:14:02Z" duration-ms="4210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:02Z" name="afterMethod" finished-at="2023-09-04T11:14:05Z" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:05Z" name="beforemethod" finished-at="2023-09-04T11:14:06Z" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createcontactwithorg()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:06Z" name="createcontactwithorg" finished-at="2023-09-04T11:14:12Z" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactwithorg -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:12Z" name="afterMethod" finished-at="2023-09-04T11:14:15Z" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:15Z" name="beforemethod" finished-at="2023-09-04T11:14:16Z" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createcontactwithsupportdate()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:16Z" name="createcontactwithsupportdate" finished-at="2023-09-04T11:14:20Z" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactwithsupportdate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:20Z" name="afterMethod" finished-at="2023-09-04T11:14:23Z" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:23Z" name="afterclass" finished-at="2023-09-04T11:14:27Z" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.comcast.crm.contacttest.ContactTC@5a5a729f]" started-at="2023-09-04T11:14:27Z" name="aftersuite" finished-at="2023-09-04T11:14:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.comcast.crm.contacttest.ContactTC -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
