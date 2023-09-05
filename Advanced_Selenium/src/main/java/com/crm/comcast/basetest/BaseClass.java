@@ -1,17 +1,16 @@
 package com.crm.comcast.basetest;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.comcast.crm.generic.ObjectRepo.ContactsPage;
 import com.comcast.crm.generic.ObjectRepo.HomePage;
@@ -38,31 +37,31 @@ public class BaseClass {
 		System.out.println(" Before Suite ");
 	}
 
-		@Parameters("browser")
-		@BeforeClass
-		public void beforeclass(String bro) throws IOException {
-			System.out.println(" Before Class ");
-			if(bro.equalsIgnoreCase("Chrome")) {
-				driver=new ChromeDriver();
-			}		
-			else if (bro.equalsIgnoreCase("firefox")) {
-				driver=new FirefoxDriver();
-			}else {
-				driver=new ChromeDriver();
-			}
-			sdriver=driver;
-			driver.manage().window().maximize();
-			driver.get(fu.getPropertyData("url"));
-		}
+//		@Parameters("browser")
+//		@BeforeClass
+//		public void beforeclass(String bro) throws IOException {
+//			System.out.println(" Before Class ");
+//			if(bro.equalsIgnoreCase("Chrome")) {
+//				driver=new ChromeDriver();
+//			}		
+//			else if (bro.equalsIgnoreCase("firefox")) {
+//				driver=new FirefoxDriver();
+//			}else {
+//				driver=new ChromeDriver();
+//			}
+//			sdriver=driver;
+//			driver.manage().window().maximize();
+//			driver.get(fu.getPropertyData("url"));
+//		}
 
-//	@BeforeClass
-//	public void beforeclass() throws IOException {
-//		System.out.println(" Before Class ");
-//		driver=new ChromeDriver();
-//		driver.manage().window().maximize();
-//		driver.get(fu.getPropertyData("url"));
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-//	}	
+	@BeforeClass
+	public void beforeclass() throws IOException {
+		System.out.println(" Before Class ");
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(fu.getPropertyData("url"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	}	
 
 	@BeforeMethod
 	public void beforemethod() throws IOException {

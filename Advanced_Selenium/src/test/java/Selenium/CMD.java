@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class CMDTest {
+public class CMD {
 	
 	//mvn -Dtest=CMDTest test -Durl="http://localhost:8888" -Dun="admin" -Dpwd="manager"
 	

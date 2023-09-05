@@ -9,7 +9,9 @@ import org.testng.annotations.Test;
 import com.crm.comcast.basetest.BaseClass;
 
 
-public class OrgTC extends BaseClass{
+
+
+public class OrgTCTest extends BaseClass{
 	
 	@Test
 	public void createorg() throws InterruptedException, IOException {
