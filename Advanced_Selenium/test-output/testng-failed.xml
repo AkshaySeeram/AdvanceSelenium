@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.comcast.crm.generic.listenerlib.ListenersClass"/>
-  </listeners>
-  <test thread-count="2" parallel="tests" name="Test1(failed)">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.comcast.crm.contacttest.ContactTC">
+      <class name="Selenium.Retry">
         <methods>
-          <include name="createcontactwithorg"/>
-          <include name="aftersuite"/>
-          <include name="beforemethod"/>
-          <include name="createcontactwithsupportdate"/>
-          <include name="beforeclass"/>
-          <include name="afterMethod"/>
-          <include name="afterclass"/>
-          <include name="beforesuite"/>
+          <include name="demoRetry"/>
         </methods>
-      </class> <!-- com.comcast.crm.contacttest.ContactTC -->
+      </class> <!-- Selenium.Retry -->
     </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
