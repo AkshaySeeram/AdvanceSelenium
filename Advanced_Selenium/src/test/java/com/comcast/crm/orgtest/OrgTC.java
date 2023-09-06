@@ -11,7 +11,7 @@ import com.crm.comcast.basetest.BaseClass;
 
 
 
-public class OrgTCTest extends BaseClass{
+public class OrgTC extends BaseClass{
 	
 	@Test
 	public void createorg() throws InterruptedException, IOException {

@@ -10,7 +10,7 @@ import com.comcast.crm.generic.ObjectRepo.ContactsPage;
 import com.comcast.crm.generic.ObjectRepo.HomePage;
 import com.crm.comcast.basetest.BaseClass;
 
-public class ContactTC extends BaseClass{
+public class ContactTCTest extends BaseClass{
 	
 	
 	
